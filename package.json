@@ -5,6 +5,7 @@
   "engines": {
     "node": "8.17.0"
   },
+  "proxy": "http://localhost:3000",
   "scripts": {
     "serve": "live-server public/",
     "build:dev": "webpack --watch",
@@ -13,7 +14,7 @@
     "scss": "node-sass --watch scss -o css",
     "test": "jest --config=jest.config.json",
     "start": "node server/server.js",
-    "heroku-postbuild": "npm run build:prod"
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap &&npm run build:prod"
   },
   "author": "",
   "license": "ISC",
