@@ -14,7 +14,7 @@
     "scss": "node-sass --watch scss -o css",
     "test": "jest --config=jest.config.json",
     "start": "node server/server.js",
-    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap &&npm run build:prod"
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build:prod"
   },
   "author": "",
   "license": "ISC",
