@@ -37,6 +37,7 @@
     "moment": "^2.29.1",
     "node-sass": "^4.3.0",
     "normalize.css": "^7.0.0",
+    "numeral": "^2.0.6",
     "object-assign": "^4.1.1",
     "raf": "^3.3.2",
     "react": "^17.0.2",
@@ -52,7 +53,7 @@
     "style-loader": "^0.18.2",
     "uuid": "^3.1.0",
     "validator": "^8.0.0",
-    "webpack": "^3.1.0" 
+    "webpack": "^3.1.0"
   },
   "devDependencies": {
     "enzyme": "^3.0.0",
@@ -60,7 +61,6 @@
     "jest": "^20.0.4",
     "react-test-renderer": "^16.0.0",
     "webpack-dev-server": "^2.5.1"
-   
   },
   "description": ""
 }
