@@ -10,7 +10,7 @@ const ExpenseListItem = ({ id , description, amount ,createdAt} ) => (
     <div>
      <Link to = {`/edit/${id}`} ><h3>{description}</h3></Link>
      <p>
-         { ((amount/100).toLocaleString('en-IN', {style:'currency', currency:'INR'}))};
+         { ((amount/100).toLocaleString('en-IN', {style:'currency', currency:'INR'}))}
           - 
           {moment(createdAt).format('MMMM Do, YYYY')}
           </p>
